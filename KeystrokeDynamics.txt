@@ -1,0 +1,11 @@
+Produce data yourself -> Type predetermined text
+-Deep Learning not suited do to lack of data
+
+Determine amount of data needed to reach acceptable threshold
+What performance measure?
+
+Ideas:
+- Use relative measures instead of absolute ones https://d1wqtxts1xzle7.cloudfront.net/11009161/p367-bergadano-with-cover-page-v2.pdf?Expires=1634632713&Signature=gNZVJH0~eyU-GIdBlHUItOe~zbpi8M0PqYtVZDxnwBecmz-AXCC853SIuLByCmq43c9ZiH1gM9nsa1xLEwAGbZBq~~Q-9NEkKE~stNda95YwYqi82sQewcpTCkk7JCjzTV22g5zVhQ2StJYGcJTqlifHAaW3cX6651tZIfLviemtJnyvRFJqTu-zpnqANqRgQu007bwmRDmRGMc36WCacPzVHeArkGGAvbAI8IKALlbK7ZthZKeZEtVHVfczHszJjzDoAoYh5S4VySSDIcJvUKcxbwWluV~B5~MCtgNu8ocvdv0763xyrz8ft9TJHWuYVkdi73F8A6IiKrXLtXQ6xg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+- Try Nearest-Neighbour(Mahalanobis) and Manhattan (Scaled) https://www.cs.cmu.edu/afs/cs/Web/People/maxion/pubs/KillourhyMaxion09.pdf
+	- https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.DistanceMetric.html
+- Just try out shit with general datasets
